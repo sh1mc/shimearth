@@ -1,8 +1,11 @@
-- name:   "onegai"
-  title:  "お願い"
+- name:     ""
+  title:    ""
 
-- name:   "yoroshiku.onegai"
-  title:  "よろしくお願い"
+- name:     "onegai"
+  title:    "お願い"
 
-- name:   "neo"
-  title:  "寝を"
+- name:     "yoroshiku.onegai"
+  title:    "よろしくお願い"
+
+- name:     "neo"
+  title:    "寝を"
