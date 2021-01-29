@@ -1,0 +1,18 @@
+doctype html
+html(lang='ja')
+	head
+		meta(charset='utf8')
+		meta(name='twitter:card', content='summary_large_image')
+		meta(name='twitter:creator', content='@sh1mc')
+		meta(name='twitter:title', content=domain)
+		meta(name='twitter:discription', content=title)
+		meta(name='twitter:image', content=img)
+		title= title
+		script(type='text/javascript' async src='https://platform.twitter.com/widgets.js')
+		link(rel='stylesheet', href='style.css')
+		link(rel='preconnect', href='https://fonts.gstatic.com')
+		link(rel='stylesheet', href='https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap')
+	body
+		div
+			h1= title 
+			a(href='https://twitter.com/share', class='twitter-share-button', data-text=title, data-url=url, data-lang='ja', data-show-count='false') Tweet

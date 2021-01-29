@@ -1,0 +1,40 @@
+{
+  "name": "shimearth",
+  "version": "1.0.0",
+  "description": "https://shim.earth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/main.ts",
+    "dev": "ts-node-dev --respawn src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sh1mc/shimearth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sh1mc/shimearth/issues"
+  },
+  "homepage": "https://github.com/sh1mc/shimearth#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "js-yaml": "^4.0.0",
+    "pug": "^3.0.0",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.1",
+    "ts-yaml": "^1.0.0",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "browser-sync": "^2.26.14",
+    "nodemon": "^2.0.7",
+    "ts-loader": "^8.0.14",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
